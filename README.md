@@ -1,17 +1,51 @@
-# AI-Mental-Health-Prediction
-This project predicts stress risk using Machine Learning.
+# 🧠 AI Mental Health Prediction System
 
-## Technologies Used
+##  Overview
+The AI Mental Health Prediction System is a Machine Learning-based web application that predicts a user's stress risk based on age, sleep hours, and work hours.
+
+##  Features
+- Predicts stress level
+- Displays confidence score
+- Personalized health suggestions
+- Stress distribution graph
+- Simple Streamlit interface
+
+##  Technologies Used
 - Python
-- Streamlit
 - Pandas
 - Scikit-Learn
+- Streamlit
+- Joblib
 
-## Features
-- Stress Risk Prediction
+##  Machine Learning Algorithm
+- Random Forest Classifier
+
+##  Project Structure
+
+```
+AI-Mental-Health-Prediction/
+│
+├── app.py
+├── train_model.py
+├── dataset.csv
+├── model.pkl
+├── accuracy.txt
+└── README.md
+```
+
+## Run the Project
+
+```bash
+pip install streamlit pandas scikit-learn joblib
+
+streamlit run app.py
+```
+
+##  Output
+- Low Stress Risk / High Stress Risk
 - Confidence Score
 - Personalized Suggestions
-- Stress Distribution Graph
+- Stress Distribution Chart
 
-## Algorithm
-Random Forest Classifier
+##  Developed By
+Yashaswini Boora
